@@ -3,5 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "AUDCAD=X"
+    return "Pair: AUDCAD=X"
 
