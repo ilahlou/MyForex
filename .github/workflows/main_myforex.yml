@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'MyForex'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F458F91498D34C57BCDC3187A0E7E353 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C244962175A469FBCDC501EB353D285 }}
