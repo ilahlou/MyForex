@@ -5,3 +5,12 @@ app = Flask(__name__)
 def hello():
     return "Pair: AUDCAD=X"
 
+import yfinance as yf
+
+
+symbol = 'AUDCAD=X'
+
+def Data():
+    return yf.download(tickers=symbol, period="5d", interval="15m")
+
+print(df)
