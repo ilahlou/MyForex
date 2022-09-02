@@ -5,6 +5,9 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "Congratulations, it's a web app!"
+@app.route("/Hello")
+def hello():
+    return "Hello there"
 
 #@app.route("/<int:celsius>")
 #def fahrenheit_from(celsius):
